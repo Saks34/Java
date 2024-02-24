@@ -19,13 +19,12 @@ public class B{
         System.out.println(st.lastIndexOf(4));
         System.out.println(st.length());
         System.out.println(st.matches(b));
-        System.out.println(st.substring(2));
+        System.out.println(st.substring(3));
         System.out.println(st.toCharArray());
         System.out.println(st.toLowerCase());
         System.out.println(st.toString());
         System.out.println(st.toUpperCase());
         System.out.println(s.trim());
         System.out.println(String.valueOf(5));
-
     }
 }
