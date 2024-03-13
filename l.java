@@ -1,5 +1,6 @@
-class father{
-    public static father.child child;
+
+
+public class l {
     int x = 50;
     void age(){
         System.out.println(x);
@@ -10,12 +11,9 @@ class father{
         System.out.println(x+z);
         }
     }
-}
-
-public class l {
     public static void main(String[] args){
-        father f = new father();
-        father.child c= f.new child();
+        l f = new l();
+        l.child c= f.new child();
         f.age();
         c.a();
     }
