@@ -7,7 +7,7 @@ public class l {
 
     class child {
         int z = 19;
-
+    
         void a() {
             System.out.println(x + z);
         }
